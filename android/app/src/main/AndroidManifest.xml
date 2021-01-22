@@ -58,7 +58,7 @@
             android:value="2" />
 
         <provider
-            android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
+            android:name="vn.saza.clinic.flutterdownloader.DownloadedFileProvider"
             android:authorities="${applicationId}.flutter_downloader.provider"
             android:exported="false"
             android:grantUriPermissions="true">
