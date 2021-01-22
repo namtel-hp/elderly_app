@@ -60,7 +60,7 @@ class _InitialSetupScreenState extends State<InitialSetupScreen> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Elderly '),
+            Text('SAZA '),
             Text(
               'Care',
               style: TextStyle(color: Colors.green),
