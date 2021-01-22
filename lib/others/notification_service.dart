@@ -23,7 +23,7 @@ class NotificationService {
       @required String body,
       String ticker}) async {
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
-        'Elderly Care', 'Elderly Care System', 'The Elderly Care Application',
+        'SAZA Care', 'SAZA Care System', 'The SAZA Care Application',
         importance: Importance.Max,
         priority: Priority.High,
         ticker: ticker ?? 'ticker');
@@ -41,9 +41,9 @@ class NotificationService {
       @required DateTime dateTime}) async {
     var scheduledNotificationDateTime = dateTime;
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
-        'Elderly Care Appoinment',
-        'Elderly Care Appoinment Reminder',
-        'Elderly Care Appoinment Reminder Notification');
+        'SAZA Care Appoinment',
+        'SAZA Care Appoinment Reminder',
+        'SAZA Care Appoinment Reminder Notification');
     var iOSPlatformChannelSpecifics = IOSNotificationDetails();
     NotificationDetails platformChannelSpecifics = NotificationDetails(
         androidPlatformChannelSpecifics, iOSPlatformChannelSpecifics);
@@ -58,7 +58,7 @@ class NotificationService {
       @required DateTime dateTime}) async {
     var scheduledNotificationDateTime = dateTime;
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
-        'Elderly Care', 'Elderly Care', 'Elderly Care Notification');
+        'SAZA Care', 'SAZA Care', 'SAZA Care Notification');
     var iOSPlatformChannelSpecifics = IOSNotificationDetails();
     NotificationDetails platformChannelSpecifics = NotificationDetails(
         androidPlatformChannelSpecifics, iOSPlatformChannelSpecifics);
@@ -105,9 +105,9 @@ class NotificationService {
       @required String body,
       @required Time time}) async {
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
-        'Elderly Care Med',
-        'Elderly Care Medicine Reminder',
-        'Elderly Care Medicine Reminder Notification');
+        'SAZA Care Med',
+        'SAZA Care Medicine Reminder',
+        'SAZA Care Medicine Reminder Notification');
     var iOSPlatformChannelSpecifics = IOSNotificationDetails();
     var platformChannelSpecifics = NotificationDetails(
         androidPlatformChannelSpecifics, iOSPlatformChannelSpecifics);
