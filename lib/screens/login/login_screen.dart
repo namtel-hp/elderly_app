@@ -66,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Text(
-                            'Continue to Elderly Care',
+                            'Continue to SAZA Care',
                             style: TextStyle(fontSize: 25),
                           ),
                         ),
